@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #ffe6f0, #ffd6e8);
+  color: #444;
+}
+
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+  color: #ff4d88;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+button, .btn {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+nav {
+  background: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff4d88;
+  font-weight: 600;
+}
+
+.page {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #ff4d88;
+}
+
+.cat {
+  width: 220px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 180px;
+  border-radius: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #ff4d88;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.buttons {
+  margin-top: 25px;
+  position: relative;
+}
+
+button {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff4d88;
+  color: white;
+}
+
+.no {
+  background: #ddd;
+  position: absolute;
+}
+
+.hidden {
+  display: none;
+}
